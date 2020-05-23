@@ -3,7 +3,7 @@ package com.ka.rover.core;
 import com.ka.rover.constant.Direction;
 import com.ka.rover.constant.Movement;
 import com.ka.rover.exception.InvalidDirectionException;
-import com.ka.rover.exception.UnknownMoveException;
+import com.ka.rover.exception.InvalidMoveException;
 import com.ka.rover.model.Plateau;
 import com.ka.rover.model.Position;
 import com.ka.rover.model.Rover;
@@ -125,7 +125,7 @@ public class RoverController {
   }
 
   private void throwUnknownMoveError(char movement) {
-    throw new UnknownMoveException("Invalid movement: " + movement);
+    throw new InvalidMoveException("Invalid movement: " + movement);
   }
 
   @Override
