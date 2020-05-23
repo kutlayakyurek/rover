@@ -1,4 +1,4 @@
-package com.ka.rover.unit;
+package com.ka.rover;
 
 import com.ka.rover.exception.InvalidPlateauException;
 import com.ka.rover.validator.PlateauValidator;

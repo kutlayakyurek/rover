@@ -1,4 +1,4 @@
-package com.ka.rover.unit;
+package com.ka.rover;
 
 import com.ka.rover.constant.Direction;
 import com.ka.rover.core.RoverController;
