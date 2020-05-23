@@ -1,4 +1,4 @@
-package com.ka.rover.core;
+package com.ka.rover.validator;
 
 import com.ka.rover.exception.OutOfBoundsException;
 import com.ka.rover.model.Plateau;

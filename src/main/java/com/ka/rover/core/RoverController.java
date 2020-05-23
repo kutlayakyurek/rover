@@ -8,6 +8,7 @@ import com.ka.rover.model.Plateau;
 import com.ka.rover.model.Position;
 import com.ka.rover.model.Rover;
 
+import com.ka.rover.validator.BoundValidator;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

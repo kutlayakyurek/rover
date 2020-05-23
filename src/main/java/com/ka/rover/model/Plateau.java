@@ -6,9 +6,8 @@ import lombok.ToString;
 @ToString
 public class Plateau {
 
-  @Getter private Position upperRightPosition;
-
-  @Getter private Position lowerLeftPosition;
+  @Getter private final Position upperRightPosition;
+  @Getter private final Position lowerLeftPosition;
 
   public Plateau(Position upperRightPosition) {
     this.lowerLeftPosition = new Position(0, 0);
