@@ -134,7 +134,7 @@ public class RoverController {
     String roverStatus =
         "Rover: "
             + rover.getName()
-            + "Position: "
+            + "\nPosition: "
             + position.getCoordinateX()
             + " "
             + position.getCoordinateY()
